@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:ital@1&display=swap"
         rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/71a469f1f0.js" crossorigin="anonymous"></script>
     <!-- tailwind custom -->
     <script>
         tailwind.config = {
@@ -392,8 +394,136 @@
             </div>
 
         </section>
+        <!-- contact Us -->
+        <section class="mt-16 mb-24 w-[80%] mx-auto">
+            <h1 class="text-center text-4xl mb-6 text-[#414040] eb font-extrabold">Contact With Us</h1>
+            <p class="text-center text-[#707070] mb-8">There are many variations of passages of Lorem Ipsum available,
+                but the majority have <br> suffered alteration in some form, by injected humour.</p>
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="flex-1">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <!-- contact 1 -->
+                        <div class="card bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="./images/address.png" alt="address" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title eb font-extrabold text-2xl text-[#414040]">Address</h2>
+                                <p class="text-[#414040]">A108 Adam Street, <br>
+                                    New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <!-- contact 2 -->
+                        <div class="card bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="./images/call.png" alt="Call" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title eb font-extrabold text-2xl text-[#414040]">Call Us</h2>
+                                <p class="text-[#414040]">+88 01750 00 00 00 <br>
+                                    +88 01750 00 00 00</p>
+                            </div>
+                        </div>
+                        <!-- contact 3 -->
+                        <div class="card bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="./images/email.png" alt="email" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title eb font-extrabold text-2xl text-[#414040]">Email Us</h2>
+                                <p class="text-[#414040]">info@gmail.com <br>
+                                    info@gmail.com</p>
+                            </div>
+                        </div>
+                        <!-- contact 4 -->
+                        <div class="card bg-base-100 shadow-xl">
+                            <figure class="px-10 pt-10">
+                                <img src="./images/time.png" alt="Time" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title eb font-extrabold text-2xl text-[#414040]">Working Hours</h2>
+                                <p class="text-[#414040]">Mon-Fri: 9AM to 5PM <br>
+                                    Sunday: 9AM to 1 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <div class="hero min-h-[60vh] bg-base-200">
+                        <div class="hero-content flex-col lg:flex-row-reverse">
+
+                            <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                                <div class="card-body">
+                                    <div class="form-control w-full">
+                                        <input type="text" placeholder="Your Name" class="input input-bordered" />
+                                    </div>
+                                    <div class="form-control">
+                                        <input type="text" placeholder="Your Email" class="input input-bordered" />
+                                    </div>
+                                    <div class="form-control">
+                                        <input type="text" placeholder="Subject" class="input input-bordered" />
+                                    </div>
+                                    <div class="form-control">
+                                        <textarea placeholder="Your Message must be Under 250 Words." cols="30" rows="5"
+                                            class="border-2 border-stone-300 rounded-xl p-2  focus:border-2  resize-none"></textarea>
+                                    </div>
+
+                                    <div class="form-control mt-6">
+                                        <button
+                                            class=" p-5 rounded-xl font-bold text-lg hover:text-[#414040] active:bg-[#fdb863ce] bg-[#be915ace] text-[white]">Send
+                                            Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
-    <footer></footer>
+    <footer class="footer p-10 bg-[#111111] text-base-content">
+        <div class="space-y-6">
+            <span class=""><img src="./images/logo.png" alt=""> </span>
+            <p class="max-w-[260px] text-[#CFCFCF]">There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered alteration in some form, by injected humour.</p>
+        </div>
+        <div>
+            <span class=" eb font-extrabold text-2xl text-[#CFCFCF]">Useful Link</span>
+            <a class="link link-hover text-[#FFFFFF]">Home</a>
+            <a class="link link-hover text-[#FFFFFF]">About us</a>
+            <a class="link link-hover text-[#FFFFFF]">Cases</a>
+            <a class="link link-hover text-[#FFFFFF]">Blog</a>
+            <a class="link link-hover text-[#FFFFFF]">Contact Us</a>
+        </div>
+        <div class="space-y-5">
+            <span class="font-extrabold eb text-2xl text-[#CFCFCF]">Contact Now</span>
+            <p class="text-[#FFFFFF]">555 4th 5t NW, Washington <br>
+                DC 20530, United States
+            </p>
+            <p class="text-[#FFFFFF]">
+                +88 01750 000 000 <br>
+                +88 01750 000 000
+            </p>
+            <p class="text-[#FFFFFF]">
+                info@gmail.com </br>
+                info@gmail.com
+            </p>
+
+        </div>
+        <div class="">
+            <span class="eb font-extrabold text-2xl text-[#CFCFCF]">Subscribe</span>
+            <div class="form-control w-80 space-y-5">
+                <label class="label">
+                    <span class="label-text text-[#FFFFFF] ">Subscribe for our latest & Articles. <br> We Won’t Give You Spam Mails</span>
+                </label>
+                <div class="relative ">
+                    <input type="text" placeholder="Email Address" class="input input-bordered w-[70%] pr-16" />
+                    <button class="btn bg-[#B68C5A] border-none hover:text-[#414040] absolute top-0 right-20 rounded-l-none"><i class="fa-solid fa-arrow-up-right-dots"></i></button>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
